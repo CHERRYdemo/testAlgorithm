@@ -97,7 +97,7 @@
     }
 }
 
-#pragma mark - 没优化逻辑前的：
+#pragma mark - 赋个没优化逻辑前的版本，方便理解思路：
 - (NSArray *)beforeOptimizeVersionArrangeWithwidth:(NSInteger)width height:(NSInteger)height originArray:(NSArray *)originArray logArray:(NSMutableArray *)logArr {
     NSInteger j = 1;
     NSInteger x = 0;
@@ -168,3 +168,4 @@
 
 
 @end
+
